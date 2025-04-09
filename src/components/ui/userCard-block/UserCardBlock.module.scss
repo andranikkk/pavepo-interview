@@ -1,0 +1,42 @@
+.wrapper {
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	gap: 0.75rem;
+	padding: 1rem;
+	width: 17rem;
+	border-radius: 1rem;
+	cursor: pointer;
+}
+
+.header {
+}
+
+.headerContent {
+	gap: 0.5rem;
+	font-weight: 500;
+	font-size: 1.25rem;
+	text-wrap: wrap;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	display: flex;
+	max-height: 55px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.avatar {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	gap: 0.75rem;
+	flex-direction: column;
+
+	img {
+		height: 16.5rem;
+		border-radius: 0.5rem;
+	}
+}

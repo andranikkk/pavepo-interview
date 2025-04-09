@@ -1,0 +1,35 @@
+.wrapper {
+	background-color: #fff;
+	height: 60px;
+	width: 100%;
+	border-bottom-right-radius: 1.5rem;
+	border-bottom-left-radius: 1.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	align-items: center;
+	gap: 2rem;
+}
+
+.input {
+	width: 15%;
+	border-radius: 7px;
+	border: 1px solid #ccc;
+	padding: 8px 8px;
+}
+
+.sort {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+
+	input {
+		margin: 5px 0 0 0;
+	}
+}
